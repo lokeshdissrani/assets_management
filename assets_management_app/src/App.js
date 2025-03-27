@@ -23,7 +23,7 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          <Route path="/" element={
+          <Route path="/assets_management" element={
             <div className="container">
               <div className="row">
                 {/* Left Column - AssetForm */}
