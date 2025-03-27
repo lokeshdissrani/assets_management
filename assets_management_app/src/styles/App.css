@@ -1,0 +1,148 @@
+/* styles/App.css */
+.App {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .asset-form {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .btn-primary {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .asset-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .asset-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  
+  .asset-item.cash {
+    border-left: 4px solid #4CAF50;
+  }
+  
+  .asset-item.property {
+    border-left: 4px solid #2196F3;
+  }
+  
+  .asset-item.vehicle {
+    border-left: 4px solid #f44336;
+  }
+  
+  .asset-values {
+    display: flex;
+    gap: 15px;
+    margin: 5px 0;
+  }
+  
+  .btn-remove {
+    background: #f44336;
+    color: white;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .asset-summary {
+    margin-top: 30px;
+  }
+  
+  .summary-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .total-value {
+    font-size: 28px;
+    font-weight: bold;
+    color: #4CAF50;
+    margin: 10px 0;
+  }
+  
+  .summary-details {
+    color: #666;
+    font-size: 14px;
+  }
+
+
+  /* styles/App.css */
+
+.container {
+    padding: 20px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+  }
+  
+  .col-md-6 {
+    width: 100%;
+    padding: 0 15px;
+  }
+  
+  @media (min-width: 768px) {
+    .col-md-6 {
+      width: 50%;
+    }
+  }
+  
+  /* Additional styling for components */
+  .asset-summary-container {
+    margin-bottom: 30px;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .asset-list-container {
+    margin-top: 20px;
+  }
